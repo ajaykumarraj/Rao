@@ -5,7 +5,7 @@ class FindPrime{
 		int i;
 		for(i=2;i<num;i++) {
 			if(num%i==0) {
-				System.out.println("It is not a prime number");
+				System.out.println(num+" is not a prime number");
 				break;
 			}
 		}
@@ -21,6 +21,7 @@ public class HealthCare {
 	public static void main(String[] args) {
 		FindPrime obj = new FindPrime();
 		obj.prime(101);
+		obj.prime(789);
 	}
 
 }
