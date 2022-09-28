@@ -20,7 +20,7 @@ public class HealthCare {
 
 	public static void main(String[] args) {
 		FindPrime obj = new FindPrime();
-		obj.prime(11);
+		obj.prime(101);
 	}
 
 }
